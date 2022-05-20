@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the  `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
@@ -253,3 +254,7 @@ If you can help us with these. Please don't hesitate to open a [pull request](ht
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
+=======
+# portfolio
+portfolio made with react
+>>>>>>> 719c5348c2cd60d2862dede240982f0565c9733a

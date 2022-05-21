@@ -1,5 +1,3 @@
-
-
 import emoji from "react-easy-emoji";
 
 // Summary And Greeting Section
@@ -38,7 +36,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I AM A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK WHILE BEING ABLE TO SOLVE VARIOUS CHALLENGES ", 
+  subTitle:
+    "I AM A FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK WHILE BEING ABLE TO SOLVE VARIOUS CHALLENGES ",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -81,7 +80,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-   
+
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
@@ -94,8 +93,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
-    
-    
+
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -118,8 +116,7 @@ const educationInfo = {
       descBullets: [
         "Primarily made with php,prolog and Jess(inference engine) via a java extension"
       ]
-    },
-  
+    }
   ]
 };
 
@@ -156,28 +153,25 @@ const workExperiences = {
       date: "November 2020 – June 2021",
       desc: " ",
 
-
       descBullets: [
         "Created and maintained clear, concise project plans and developed strategies to meet deadlines",
         "Write efﬁcient, maintainable and reusable code prioritizing privacy and security",
         "Simultaneously manage multiple projects and meet many strict deadlines",
         "Collaborate closely with Project Managers and Senior Executives to track KPIs of individual projects and provide a clearer understanding of the big picture"
-
       ]
     },
 
-  
     {
       role: "IT Administrator",
       company: "Capacity Africa ",
       companylogo: require("./assets/images/capacityafricalogo.png"),
       date: "March 2020 – October 2020",
       desc: "I worked with Capacity Africa as a digital marketer/IT admin",
-      descBullets:[ 
+      descBullets: [
         " Helped out other employees whenever they needed anything technical assistance",
-                "I worked on updating the company’s WordPress website, improving it's SEO and designing ﬂyers for marketing",
-
-      ]},
+        "I worked on updating the company’s WordPress website, improving it's SEO and designing ﬂyers for marketing"
+      ]
+    },
 
     {
       role: "Software Developer Intern",
@@ -185,21 +179,17 @@ const workExperiences = {
       companylogo: require("./assets/images/ncglogo.png"),
       date: "November 2019 – February 2020",
       desc: "Introduced to Thymeleaf for frontend development and Spring Boot for the backend development along with MySql and ﬂyway migrations.",
-      
-      descBullets:[ 
-        
-      "Introduced to Thymeleaf for frontend development and Spring Boot for the backend development along with MySql and ﬂyway migrations.",
-      "Made changes, upon request, to existing applications",
-      "At Nathan Claire Group I was able to learn how to conﬁgure a system to work  with com ports using java/spring boot framework. This was particularly in a livestock weighing system.",
 
-      "Worked on a debt collection system along with the team",
+      descBullets: [
+        "Introduced to Thymeleaf for frontend development and Spring Boot for the backend development along with MySql and ﬂyway migrations.",
+        "Made changes, upon request, to existing applications",
+        "At Nathan Claire Group I was able to learn how to conﬁgure a system to work  with com ports using java/spring boot framework. This was particularly in a livestock weighing system.",
 
-      "Exceeded goals through effective task prioritization and great work ethic. ",
+        "Worked on a debt collection system along with the team",
 
-
-]},
-    
-    
+        "Exceeded goals through effective task prioritization and great work ethic. "
+      ]
+    }
   ]
 };
 
@@ -220,7 +210,8 @@ const bigProjects = {
     {
       image: require("./assets/images/faceliftlogo.png"),
       projectName: "Facelift By Design",
-      projectDesc: "An e-commerce website made with Spring Boot, thymeleaf, JQuery and Mysql",
+      projectDesc:
+        "An e-commerce website made with Spring Boot, thymeleaf, JQuery and Mysql",
       footerLink: [
         {
           name: "In progress"
@@ -228,7 +219,7 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -299,7 +290,6 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
-    
     {
       url: "https://medium.com/@noelsobryant/",
       title: "Why REACT is The Best?",
@@ -309,10 +299,6 @@ const blogSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
-
-
-
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),

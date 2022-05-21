@@ -17,4 +17,4 @@ jobs:
         uses: github/super-linter@v3
         env:
           DEFAULT_BRANCH: master
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ REACT_APP_GITHUB_TOKEN }}
